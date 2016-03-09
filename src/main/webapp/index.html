@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>Home | DVD-STORE</title>
+		<style>
+      .map {
+        width: 500px;
+        height: 400px;
+      }
+    </style>
+	</head>
+	<body>
+		<div id="accordian" align="center">
+				<div><a href="javascript:getBalance();" >Balance Enquiry</a></div>
+				<div><a href="javascript:branchLocator();" >BranchLocater</a></div>
+				<div><a href="javascript:amountTransfer();" >Transfer Amount</a></div>
+		</div>
+		<br/>
+		<br/>
+		<br/>
+		<div align="center">
+			<span id="balanceSummary"></span>
+		</div>
+		
+		<br/>
+		<br/>
+		<br/>
+		<div id="map" align="center">
+			
+		<script src="jquery-1.11.1.js" ></script>
+		<script type="application/javascript" src="index.js"></script>
+		<script src="https://maps.googleapis.com/maps/api/js"></script>
+	</body>
+</html>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+ <!--<!DOCTYPE html>
+<html>
+  <head>
+    <style>
+      #map {
+        width: 500px;
+        height: 400px;
+      }
+    </style>
+  </head>
+  <body>
+   
+   
+   
+    <h1>ATM Locater</h1> 
+    <div id="map"></div>
+    <script>
+      function initMap() {
+  		var myOptions = {
+  			zoom : 11,
+  			center : {lat:19.144698, lng: 72.93682919999992},
+  			mapTypeId : google.maps.MapTypeId.ROADMAP
+  		};
+  		map = new google.maps.Map(document.getElementById('map'),
+  				myOptions);
+  		marker = new google.maps.Marker({
+  			map : map,
+  			position : new google.maps.LatLng(19.144698, 72.93682919999992)
+  		});
+  		infowindow = new google.maps.InfoWindow(
+  				{
+  					content : 'ICICI Bank Ltd. - 100 - A, Station Plaza, Bhandup West<br>'
+  				});
+  		google.maps.event.addListener(marker, 'click', function() {
+  			infowindow.open(map, marker);
+  		});
+  	}
+    </script>
+    <script src="https://maps.googleapis.com/maps/api/js?callback=initMap"
+        async defer></script> 
+  </body>
+</html>-->
