@@ -1,8 +1,6 @@
 # Quicksy
 Quick and easy
 
-#Testing...
-
 Usage of a mobile for payment and banking transactions (mobile-banking) has been rapid, and has extended access in many developing countries like India. In electronic commerce, customers use electronic money (e-money) instead of cash. But, now day’s customers want more reliable, easy, robust and responsive applications which will full fill their requirement. Keeping this in mind we will be addressing below business problems in our application:
 
 a.	Quick and easy fund transfer: 
