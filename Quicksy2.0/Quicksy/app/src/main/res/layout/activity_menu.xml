@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<GridLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:useDefaultMargins="true"
+    android:alignmentMode="alignBounds"
+    android:columnOrderPreserved="false"
+    android:background="@drawable/back_ground"
+    android:weightSum="1"
+    android:rowCount="5"
+    android:adjustViewBounds="true"
+    android:columnCount="2">
+    <ImageView
+        android:id="@+id/app_logo"
+        android:layout_marginTop="10dp"
+        android:layout_width="170dp"
+        android:layout_height="80dp"
+        android:src="@drawable/app_logo"
+        android:gravity="center"
+        android:layout_gravity="center_horizontal" />
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Welcome Mr. John Doe"
+        android:layout_marginTop="10dp"
+        android:layout_marginBottom="2dp"
+        android:layout_marginLeft="30px"
+        android:layout_marginRight="20px"
+        android:id="@+id/fullName"
+        android:textColor="#ffffff"
+        android:gravity="center" />
+    <TextView
+        android:id="@+id/acbalance"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textColor="#ffffff"
+        android:gravity="center"
+        android:text="test"/>
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="What would you like to do?"
+        android:layout_marginTop="3dp"
+        android:layout_marginBottom="40dp"
+        android:layout_marginLeft="30px"
+        android:layout_marginRight="20px"
+        android:id="@+id/greeting"
+        android:textColor="#ffffff"
+        android:gravity="center" />
+    <GridView
+        android:numColumns="2"
+        android:columnWidth="100dp"
+        android:stretchMode="columnWidth"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:id="@+id/grid"
+        android:layout_gravity="center_horizontal"
+        android:horizontalSpacing="10dp"
+        android:paddingLeft="30dp" />
+
+</GridLayout>

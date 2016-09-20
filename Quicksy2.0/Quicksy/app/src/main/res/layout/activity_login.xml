@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+    android:background="@drawable/back_ground"
+    android:layout_height="match_parent"
+    android:layout_width="match_parent">
+    <ImageView
+        android:id="@+id/app_logo"
+        android:layout_marginTop="10dp"
+        android:layout_width="170dp"
+        android:layout_height="95dp"
+        android:src="@drawable/app_logo"
+        android:gravity="center"
+        android:layout_gravity="center_horizontal" />
+    <TextView
+        android:layout_width="wrap_content"
+        android:text="UserName"
+        android:layout_marginTop="60dp"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="100px"
+        android:layout_marginRight="100px"
+        android:textSize="40px"
+        android:textColor="#ffffff"/>
+
+    <EditText
+        android:id="@+id/userName"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="10dp"
+        android:layout_marginLeft="100px"
+        android:layout_marginRight="100px"
+        android:textColor="#ffffff"
+        />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:text="Password"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="100px"
+        android:layout_marginRight="100px"
+        android:textSize="40px"
+        android:textColor="#ffffff"/>
+
+    <EditText
+        android:id="@+id/password"
+        android:inputType="textPassword"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="10dp"
+        android:layout_marginLeft="100px"
+        android:layout_marginRight="100px"
+        android:textColor="#ffffff"/>
+
+    <Button
+        android:id="@+id/bLogin"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="80px"
+        android:background="@drawable/login"
+        android:layout_gravity="center"/>
+
+</LinearLayout>

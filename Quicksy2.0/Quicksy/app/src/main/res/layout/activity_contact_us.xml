@@ -1,0 +1,170 @@
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+android:layout_width="match_parent"
+android:layout_height="match_parent">
+
+    <TableLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:shrinkColumns="*"  android:stretchColumns="*" android:background="@drawable/back_ground">
+
+        <!-- Row 1 with single column -->
+        <TextView
+            android:layout_width="match_parent" android:layout_height="wrap_content"
+            android:textSize="25dp" android:text="Contact Us" android:layout_span="3"
+            android:padding="18dip"  android:gravity="center"
+            android:textColor="#ffffff"/>
+
+
+        <TextView
+            android:layout_width="match_parent" android:layout_height="wrap_content"
+            android:textSize="18dp" android:text="Please write us at xyz@pqr.com or you can contact us on below toll free numbers."  android:layout_span="3"
+            android:padding="18dip"  android:gravity="center"
+            android:textColor="#ffffff"/>
+
+        <TableRow
+            android:layout_height="wrap_content"
+            android:layout_width="fill_parent"
+            android:gravity="center_horizontal">
+
+            <TextView
+                android:layout_width="match_parent" android:layout_height="wrap_content"
+                android:textSize="18dp" android:text="Andhra Pradesh: 7306667777"  android:layout_span="3"
+                android:padding="18dip"  android:gravity="center" android:paddingLeft="20dp" android:paddingRight="20dp"
+                android:textColor="#ffffff" />
+        </TableRow>
+
+        <TableRow
+            android:layout_height="wrap_content"
+            android:layout_width="fill_parent"
+            android:gravity="center_horizontal">
+
+            <TextView
+                android:layout_width="match_parent" android:layout_height="wrap_content"
+                android:textSize="18dp" android:text="Assam: 9864667777"  android:layout_span="3"
+                android:padding="18dip"  android:gravity="center"
+                android:textColor="#ffffff"/>
+        </TableRow>
+
+        <TableRow
+            android:layout_height="wrap_content"
+            android:layout_width="fill_parent"
+            android:gravity="center_horizontal">
+
+            <TextView
+                android:layout_width="match_parent" android:layout_height="wrap_content"
+                android:textSize="18dp" android:text="Bihar: 8102667777"  android:layout_span="3"
+                android:padding="18dip"  android:gravity="center"
+                android:textColor="#ffffff"/>
+        </TableRow>
+
+        <TableRow
+            android:layout_height="wrap_content"
+            android:layout_width="fill_parent"
+            android:gravity="center_horizontal">
+
+            <TextView
+                android:layout_width="match_parent" android:layout_height="wrap_content"
+                android:textSize="18dp" android:text="Chattisgarh: 9098667777"  android:layout_span="3"
+                android:padding="18dip"  android:gravity="center"
+                android:textColor="#ffffff"/>
+        </TableRow>
+
+        <TableRow
+            android:layout_height="wrap_content"
+            android:layout_width="fill_parent"
+            android:gravity="center_horizontal">
+
+            <TextView
+                android:layout_width="match_parent" android:layout_height="wrap_content"
+                android:textSize="18dp" android:text="Goa: 9021667777"  android:layout_span="3"
+                android:padding="18dip"  android:gravity="center"
+                android:textColor="#ffffff"/>
+        </TableRow>
+
+        <TableRow
+            android:layout_height="wrap_content"
+            android:layout_width="fill_parent"
+            android:gravity="center_horizontal">
+
+            <TextView
+                android:layout_width="match_parent" android:layout_height="wrap_content"
+                android:textSize="18dp" android:text="Gujarat: 8000667777"  android:layout_span="3"
+                android:padding="18dip"  android:gravity="center"
+                android:textColor="#ffffff"/>
+        </TableRow>
+
+        <TableRow
+            android:layout_height="wrap_content"
+            android:layout_width="fill_parent"
+            android:gravity="center_horizontal">
+
+            <TextView
+                android:layout_width="match_parent" android:layout_height="wrap_content"
+                android:textSize="18dp" android:text="Jammu and Kashmir: 9018667777"  android:layout_span="3"
+                android:padding="18dip"  android:gravity="center"
+                android:textColor="#ffffff"/>
+        </TableRow>
+
+        <TableRow
+            android:layout_height="wrap_content"
+            android:layout_width="fill_parent"
+            android:gravity="center_horizontal">
+
+            <TextView
+                android:layout_width="match_parent" android:layout_height="wrap_content"
+                android:textSize="18dp" android:text="Jharkhand: 8102667777"  android:layout_span="3"
+                android:padding="18dip"  android:gravity="center"
+                android:textColor="#ffffff"/>
+        </TableRow>
+
+        <TableRow
+            android:layout_height="wrap_content"
+            android:layout_width="fill_parent"
+            android:gravity="center_horizontal">
+
+            <TextView
+                android:layout_width="match_parent" android:layout_height="wrap_content"
+                android:textSize="18dp" android:text="Karnataka: 8088667777"  android:layout_span="3"
+                android:padding="18dip"  android:gravity="center"
+                android:textColor="#ffffff"/>
+        </TableRow>
+
+        <TableRow
+            android:layout_height="wrap_content"
+            android:layout_width="fill_parent"
+            android:gravity="center_horizontal">
+
+            <TextView
+                android:layout_width="match_parent" android:layout_height="wrap_content"
+                android:textSize="18dp" android:text="Kerala: 9020667777"  android:layout_span="3"
+                android:padding="18dip"  android:gravity="center"
+                android:textColor="#ffffff"/>
+        </TableRow>
+
+        <TableRow
+            android:layout_height="wrap_content"
+            android:layout_width="fill_parent"
+            android:gravity="center_horizontal">
+
+            <TextView
+                android:layout_width="match_parent" android:layout_height="wrap_content"
+                android:textSize="18dp" android:text="Madhya Pradesh: 9098667777"  android:layout_span="3"
+                android:padding="18dip"  android:gravity="center"
+                android:textColor="#ffffff"/>
+        </TableRow>
+
+        <TableRow
+            android:layout_height="wrap_content"
+            android:layout_width="fill_parent"
+            android:gravity="center_horizontal">
+
+            <TextView
+                android:layout_width="match_parent" android:layout_height="wrap_content"
+                android:textSize="18dp" android:text="Maharashtra: 9021667777"  android:layout_span="3"
+                android:padding="18dip"  android:gravity="center"
+                android:textColor="#ffffff"/>
+        </TableRow>
+
+    </TableLayout>
+</ScrollView>
