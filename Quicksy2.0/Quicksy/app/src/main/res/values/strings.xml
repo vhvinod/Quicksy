@@ -1,0 +1,15 @@
+<resources>
+    <string name="app_name">Quicksy</string>
+    <string name="action_settings">Settings</string>
+    <string name="title_activity_login">LoginActivity</string>
+    <string name="title_activity_funt_transfer">Funt_transfer</string>
+    <string name="title_activity_menu">MenuActivity</string>
+    <string name="title_activity_fund_transfer">FundTransfer</string>
+    <string name="title_activity_qr__scan">QR_Scan</string>
+    <string name="title_activity_qr__generate">QR_Generate</string>
+    <string name="title_activity_splash_screen">SplashScreen</string>
+    <string name="title_activity_custom_grid_view_adapter">CustomGridViewAdapter</string>
+    <string name="title_activity_contact_us">ContactUs</string>
+    <string name="title_activity_offers">Offers</string>
+    <string name="title_activity_locator">Locator</string>
+</resources>

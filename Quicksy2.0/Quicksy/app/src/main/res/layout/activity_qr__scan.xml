@@ -1,0 +1,115 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+    android:layout_height="match_parent"
+    android:layout_width="match_parent"
+    android:background="@drawable/back_ground"
+    android:weightSum="1">
+
+
+    <TextView
+        android:textSize="23sp"
+        android:layout_width="235dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="60px"
+        android:textStyle="bold"
+        android:text="Fund Transfer"
+        android:layout_weight="0.05"
+        android:gravity="center"
+        android:textColor="#ffffff"/>
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="60px"
+        android:id="@+id/acbalanceft"
+        android:gravity="center"
+        android:textColor="#ffffff"/>
+    <TextView
+        android:id="@+id/transferMessage"
+        android:textSize="18sp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="-30px"
+        android:layout_centerInParent="true"
+        android:textColor="#ffffff"
+        android:visibility="gone"/>
+
+    <TextView
+        android:id="@+id/accountNoText"
+        android:textSize="23sp"
+        android:layout_width="268dp"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="100px"
+        android:layout_marginTop="100px"
+        android:textStyle="bold"
+        android:layout_centerInParent="true"
+        android:text="Account Number"
+        android:layout_weight="0.11"
+        android:textColor="#ffffff"/>
+
+    <EditText
+        android:id="@+id/destAccountNo"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="10dp"
+        android:layout_marginLeft="100px"
+        android:layout_marginRight="100px"
+        android:editable="false"
+        android:textColor="#ffffff"/>
+
+    <TextView
+        android:id="@+id/amountText"
+        android:textSize="23sp"
+        android:layout_width="268dp"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="100px"
+        android:layout_marginTop="60px"
+        android:textStyle="bold"
+        android:layout_centerInParent="true"
+        android:text="Enter Amount"
+        android:layout_weight="0.11"
+        android:textColor="#ffffff"/>
+
+    <EditText
+        android:id="@+id/amount"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="10dp"
+        android:layout_marginLeft="100px"
+        android:layout_marginRight="100px"
+        android:textColor="#ffffff"/>
+
+    <Button
+        android:id="@+id/initiateTransfer"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="50px"
+        android:layout_marginLeft="200px"
+        android:layout_marginRight="200px"
+        android:textColor="#ffffff"
+        android:background="@drawable/transfer1"/>
+
+    <Button
+        android:id="@+id/goBack"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="100px"
+        android:textColor="#ffffff"
+        android:layout_marginLeft="200px"
+        android:layout_marginRight="200px"
+        android:visibility="gone"
+        android:background="@drawable/fundtransfer"/>
+
+    <Button
+        android:id="@+id/goHome"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textColor="#ffffff"
+        android:layout_marginTop="100px"
+        android:layout_marginLeft="200px"
+        android:layout_marginRight="200px"
+        android:visibility="gone"
+        android:background="@drawable/home"/>
+
+</LinearLayout>

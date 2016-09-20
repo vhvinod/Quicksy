@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.prashant.quicksy">
+
+    <uses-permission android:name="android.permission.INTERNET" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity
+            android:name=".Quicksy"
+            android:label="@string/app_name"
+            android:screenOrientation="portrait"
+            android:theme="@style/AppTheme.NoActionBar">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".MainActivity"
+            android:label="@string/app_name"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".login.LoginActivity"
+            android:label="@string/title_activity_login"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".menu.MenuActivity"
+            android:label="@string/title_activity_menu"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".menu.fundTransfer.FundTransfer"
+            android:label="@string/title_activity_fund_transfer"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".menu.fundTransfer.QR_Scan"
+            android:label="@string/title_activity_qr__scan"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".menu.fundTransfer.QR_Generate"
+            android:label="@string/title_activity_qr__generate"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <BaseAdapter
+            android:name=".menu.CustomGrid"
+            android:label="@string/title_activity_custom_grid_view_adapter"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".menu.contactUs.ContactUs"
+            android:label="@string/title_activity_contact_us"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".menu.offers.Offers"
+            android:label="@string/title_activity_offers"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".menu.locator.Locator"
+            android:label="@string/title_activity_locator"
+            android:theme="@style/AppTheme.NoActionBar">
+                <intent-filter>
+                    <action android:name="com.androidexperiments.landmarker.LandmarkerApplication" />
+                </intent-filter>
+        </activity>
+    </application>
+
+</manifest>
