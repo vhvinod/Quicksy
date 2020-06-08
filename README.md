@@ -12,7 +12,7 @@ Using latest technology we can improve Bank and ATM locators i.e. by showing ICI
 c.	Simplified and interactive banking experience:
 Customizable menu in home page, interactive user interface and appealing UX makes entire experience of using the app trouble free, quick and easy, hence the name Quicksy.
 
-#Tools and Technologies Used
+### Tools and Technologies Used
 1. Android
 2. QR Code
 3. RESTful Web Services
